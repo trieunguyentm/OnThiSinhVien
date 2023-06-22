@@ -1,0 +1,190 @@
+/* Top */
+.background-school {
+    background-image: url("https://storage.googleapis.com/onthisinhvien.appspot.com/images/otsvv/background-school.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.title-info-page {
+    text-align: center;
+    margin: 20px;
+    color: blue;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.list-item-info-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-info-page {
+    width: 16%;
+    text-align: center;
+    transition: .5s;
+}
+
+.item-info-page:hover {
+    position: relative;
+    top: -5px;
+    transform: translateY(-5%)
+}
+
+.image-info {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    position: relative;
+    transition: .5s;
+    margin: auto;
+    background: #D5E2F3;
+}
+
+.item-info-page:hover .image-info {
+    background: red;
+    transition: .5s;
+}
+
+.item-info-page .image-info img {
+    transition: .5s;
+}
+
+.count {
+    color: #065A9E;
+    font-size: 30px;
+}
+
+.text-info {
+    color: #505050;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* Bottom */
+
+.title-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.title-block-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-block-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #4B4B4B;
+}
+
+#search-school {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-school input {
+    margin: 20px 0;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    outline: none;
+    font-weight: 500;
+}
+
+#button-search-school {
+    /* position: absolute; */
+    /* right: calc(50%-200px); */
+    cursor: pointer;
+    border: 0;
+    background: 0;
+    font-size: 20px;
+    outline: none;
+}
+
+.list-school a {
+    text-decoration: none;
+}
+
+.item-school {
+    display: flex;
+    padding-left: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.item-school .school {
+    display: flex;
+    align-items: center;
+}
+
+.item-school .image-school {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.tag-school {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 20px;
+    height: 20px;
+}
+
+.name-category {
+    text-transform: uppercase;
+    font-size: 15px;
+    height: 15px;
+    color: #1C3967;
+    font-weight: bold;
+}
+
+.show-more {
+    display: flex;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.total-course-tag {
+    margin: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #94A6C0;
+}
+
+.btn-more {
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-style: italic;
+    color: gray;
+}
+
+.hidden {
+    display: none;
+}
